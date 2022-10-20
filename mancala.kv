@@ -1,0 +1,23 @@
+#:kivy 2.1.0
+
+<MancalaScreenManagement>:
+    GameScreen:
+    SettingsScreen:
+
+<GameScreen>
+    name: "game_screen"
+    RelativeLayout:
+        canvas:
+            Rectangle:
+                source: 'assets/img/1.jpg'
+                pos: self.pos
+                size: self.size
+
+<SettingsScreen>
+    name: "settings_screen"
+    RelativeLayout:
+        canvas:
+            Rectangle:
+                source: 'assets/img/2.jpg'
+                pos: self.pos
+                size: self.size
